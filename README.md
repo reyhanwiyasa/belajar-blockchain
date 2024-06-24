@@ -60,5 +60,12 @@ class Block {
   ```
 - Factory method / design pattern
 
+<h2> Day 3</h2>
+
+Videos watched: 6/138 </br>
+I slacked off today, not much of new things that i learned/
+**Things i've learned:** </br>
+- Create a mineBlock() tests
+
   
   
