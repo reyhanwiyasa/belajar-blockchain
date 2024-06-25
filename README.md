@@ -60,12 +60,31 @@ class Block {
   ```
 - Factory method / design pattern
 
-<h2> Day 3</h2>
+<h2> Day 3 </h2>
 
 Videos watched: 6/138 </br>
-I slacked off today, not much of new things that i learned/
+I slacked off today, not much of new things that i learned.
+
 **Things i've learned:** </br>
 - Create a mineBlock() tests
+
+<h2> Day 4 </h2>
+Videos watched: 16/138 </br>
+I learned mostly about hashing. In this course (so far), i learned how to use the SHA-256, OR Secure Hash Algorithm to hash the blocks. I also learn the difference of hashing and encrypting, which is hashing is one way, and encrypting is two way (you can decrypt back to original strings). I completed section 1 for the course, 11 or 12 more to go. Wish me luck, me!
+
+**Things i've learned:** </br>
+- Hashing function (SHA-256)
+- here's the code to hash an object. the `...inputs` mean the function takes an indefinite amount of arguments so it doesn't matter the order of the argument (since we're using sort), and the `.digest` function is used to hash the string
+```
+const cryptoHash = (...inputs) => {
+  const hash = crypto.createHash("sha256");
+
+  hash.update(inputs.sort().join(" "));
+
+  return hash.digest("hex");
+};
+```
+
 
   
   
