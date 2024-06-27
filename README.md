@@ -85,6 +85,13 @@ const cryptoHash = (...inputs) => {
 };
 ```
 
+<h2> Day 5 </h2>
+Videos watched: 19/138 </br>
+Today i created a test for the blockchain class. I haven't implemented it yet though. I learned about chain validation and three requirements for a chain to fulfill to be valid, which basically they need to consist of valid blocks. I have yet to learn for chain replacement, but I hope I'll learn it tomorrow
+
+**Things i've learned:** </br>
+- Chain validation
+
 
   
   
