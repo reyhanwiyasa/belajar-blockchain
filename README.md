@@ -92,6 +92,9 @@ Today i created a test for the blockchain class. I haven't implemented it yet th
 **Things i've learned:** </br>
 - Chain validation
 
+<h2> Day 6 </h2>
+Videos watched: 19/138 </br>
+Didn't open the video today cuz busy on doing something🫠
 
   
   
