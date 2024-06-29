@@ -104,7 +104,7 @@ Didn't open the video today cuz busy on doing something🫠
 
 <h2> Day 7 </h2>
 Videos watched: 19/138 </br>
-Same as before day 6,,,
+Same as before day 6,,,,
 
 
 
