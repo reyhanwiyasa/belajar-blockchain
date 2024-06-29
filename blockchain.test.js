@@ -23,12 +23,12 @@ describe("blockchain test", () => {
   });
 
   describe("isValidChain()", () => {
+    beforeEach(() => {
+      blockchain.addBlock({ data: "Bears" });
+      blockchain.addBlock({ data: "Beets" });
+      blockchain.addBlock({ data: "Battlestar" });
+    });
     describe("when the chain does not start with genesis block", () => {
-      beforeEach(() => {
-        blockchain.addBlock({ data: "Bears" });
-        blockchain.addBlock({ data: "Beets" });
-        blockchain.addBlock({ data: "Battlestar" });
-      });
       it("returns false", () => {
         blockchain.chain[0] = { data: "fake-genesis" };
         expect(Blockchain.isValidChain(blockchain.chain)).toBe(false);
@@ -52,7 +52,7 @@ describe("blockchain test", () => {
 
       describe("and all the blocks are valid", () => {
         it("returns true", () => {
-          expect(Blockchain.isValidChain(blockchain.chain)).toBe(false);
+          expect(Blockchain.isValidChain(blockchain.chain)).toBe(true);
         });
       });
     });
