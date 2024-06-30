@@ -106,6 +106,8 @@ Didn't open the video today cuz busy on doing something🫠
 Videos watched: 19/138 </br>
 Same as before day 6,,,,
 
-
+<h2> Day 8 </h2>
+Videos watched: 20/138 </br>
+Not many progress done today, but I've implemented the isValidChain() method and now is making the replaceChain() method. The TDD's starting to get difficult but I guess it's easier than not having to do TDD.
 
 ```

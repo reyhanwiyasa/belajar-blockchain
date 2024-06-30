@@ -2,9 +2,10 @@ const Blockchain = require("./blockchain");
 const Block = require("./block");
 
 describe("blockchain test", () => {
-  let blockchain = new Blockchain();
+  let blockchain, newChain;
   beforeEach(() => {
     blockchain = new Blockchain();
+    newChain = new Blockchain();
   });
 
   it("it is an `Array` instance", () => {
@@ -57,4 +58,6 @@ describe("blockchain test", () => {
       });
     });
   });
+
+  describe("replaceChain()", () => {});
 });
