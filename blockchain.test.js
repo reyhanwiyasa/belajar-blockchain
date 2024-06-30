@@ -71,9 +71,9 @@ describe("blockchain test", () => {
     });
     describe("when the chain is longer", () => {
       beforeEach(() => {
-        blockchain.addBlock({ data: "Bears" });
-        blockchain.addBlock({ data: "Beets" });
-        blockchain.addBlock({ data: "Battlestar" });
+        newChain.addBlock({ data: "Bears" });
+        newChain.addBlock({ data: "Beets" });
+        newChain.addBlock({ data: "Battlestar" });
       });
 
       describe("and the chain is invalid", () => {
