@@ -110,4 +110,12 @@ Same as before day 6,,,,
 Videos watched: 20/138 </br>
 Not many progress done today, but I've implemented the isValidChain() method and now is making the replaceChain() method. The TDD's starting to get difficult but I guess it's easier than not having to do TDD.
 
+<h2> Day 9 </h2>
+Videos watched: 21/138 </br>
+I've completed section 2 and now am entering the section 3 of the course, which covers about the Proof Of Work and block mining. I kinda get the gist of what miners do, they basically search for a digit called the nonce (usually starting from 0) that if it's added with the block data, will result in a valid hash starting with proper amount of leading zeros (also called the difficulty), which takes a lot of computational work.
+
+**Things i've learned:**
+- Proof of Work and their terms (like nonce and difficulty)
+
+
 ```
